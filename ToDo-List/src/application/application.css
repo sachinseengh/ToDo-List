@@ -9,3 +9,7 @@
 .working_area{
 	-fx-background-color:rgba(142, 194, 197, 0.307);
 }
+
+.drop-shadow {
+    -fx-effect: dropshadow(gaussian, #29c2d6, 10, 0, 5, 10);
+}
