@@ -13,3 +13,10 @@
 .drop-shadow {
     -fx-effect: dropshadow(gaussian, #29c2d6, 10, 0, 5, 10);
 }
+
+.delete{
+	-fx-background-color:#ad3834
+}
+.add{
+	-fx-background-color:#74bd57
+	}
