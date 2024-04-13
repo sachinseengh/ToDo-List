@@ -7,9 +7,9 @@
 
 ## To Do List App Interfaces
 
-<img src="https://github.com/sachinseengh/ToDo-List/assets/108042077/469c9632-0ebb-4448-8316-5c15a9f98c38" width="450" height="400">
+<img src="https://github.com/sachinseengh/ToDo-List/assets/108042077/469c9632-0ebb-4448-8316-5c15a9f98c38" width="400" height="400">
 <span>-</span>
-<img src="https://github.com/sachinseengh/ToDo-List/assets/108042077/c4ab38d5-b208-4cf6-83d0-9b14bab71f5c" width="450" height="400">
+<img src="https://github.com/sachinseengh/ToDo-List/assets/108042077/c4ab38d5-b208-4cf6-83d0-9b14bab71f5c" width="400" height="400">
 
 <img src="https://github.com/sachinseengh/ToDo-List/assets/108042077/8fc601c3-1c07-4fef-ae5c-e0754c1ffe45" width="450" height="400">
 <span>-</span>
