@@ -33,10 +33,11 @@
                   </Label>
                   <TextField fx:id="txt_field" layoutX="250.0" layoutY="118.0" onKeyTyped="#clearError" onMouseClicked="#clearError" prefHeight="36.0" prefWidth="376.0" />
                   <Button fx:id="add_btn" layoutX="651.0" layoutY="121.0" mnemonicParsing="false" onAction="#add" prefHeight="30.0" prefWidth="97.0" styleClass="add" stylesheets="@application.css" text="Add" />
-                  <TableView fx:id="tableview" layoutX="120.0" layoutY="215.0" prefHeight="324.0" prefWidth="630.0">
+                  <TableView fx:id="tableview" layoutX="113.0" layoutY="215.0" onMouseClicked="#selectUnverified" prefHeight="324.0" prefWidth="645.0">
                     <columns>
-                      <TableColumn prefWidth="112.0" text="Date" />
-                      <TableColumn prefWidth="517.6000366210938" text="Task" />
+                      <TableColumn fx:id="col_sn" prefWidth="147.99993896484375" text="SNo" />
+                      <TableColumn fx:id="col_task" prefWidth="348.0" text="Task" />
+                        <TableColumn fx:id="col_date" prefWidth="148.79998779296875" text="Date" />
                     </columns>
                   </TableView>
                   <Label layoutX="421.0" layoutY="191.0" text="List">
@@ -44,12 +45,15 @@
                         <Font name="Californian FB Bold" size="20.0" />
                      </font>
                   </Label>
-                  <Button fx:id="delete_btn" layoutX="654.0" layoutY="555.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="97.0" styleClass="delete" stylesheets="@application.css" text="Delete" textFill="WHITE" />
+                  <Button fx:id="delete_btn" layoutX="654.0" layoutY="555.0" mnemonicParsing="false" onAction="#delete" prefHeight="30.0" prefWidth="97.0" styleClass="delete" stylesheets="@application.css" text="Delete" textFill="WHITE" />
                   <Label fx:id="error" layoutX="249.0" layoutY="161.0" prefHeight="18.0" prefWidth="368.0" textFill="#ea0d0d">
                      <font>
                         <Font name="Californian FB" size="16.0" />
                      </font>
                   </Label>
+                  <Label layoutX="113.0" layoutY="562.0" text="Id:" />
+                  <Label fx:id="Selectedsn" layoutX="136.0" layoutY="561.0" prefHeight="18.0" prefWidth="25.0" />
+                  <Label layoutX="700.0" layoutY="16.0" text="Circuit X Sachin" />
                </children></AnchorPane>
          </children>
       </AnchorPane>
